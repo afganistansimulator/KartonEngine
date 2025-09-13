@@ -1,5 +1,11 @@
 This is a quick guide on how to use this engine.
 
+# Link Karton functions to other python files
+
+I honestly reccomend this. Provides you a clean new python script without some random garbage at the top.
+
+To do this first have the py file at the same location where the Karton.py file is, unless you know some more advanced black magic which will be the case 100%. Then in your py file put `from Karton import*` at the top and then go crazy.
+
 # Creating a stage
 This is the **first step** you need to do before running any other Karton command.
 You can do this with `render(<width>, <height>)`
