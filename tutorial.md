@@ -19,10 +19,10 @@ You can do this with `new_layer(<Name>)`, this creates a layer at the top. So th
 new_layer('background') # will appear at the back
 new_layer('house') # will appear in front of the background
 ```
-## Use `LAYER=<your layer>` to apply Karton functions to your created layers
+## Use `setLayer(<your layer>)` to apply Karton functions to your created layers
 ### example
 ```
-LAYER='background' # every Karton funcion will now apply to this layer
+setLayer('background') # every Karton funcion will now apply to this layer
 fill(...)
 text(...)
 ```
